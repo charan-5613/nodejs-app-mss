@@ -1,6 +1,6 @@
 {
   "name": "nodejsexamples",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "This Project explains all Node JS examples",
   "main": "app.js",
   "publishConfig": {
