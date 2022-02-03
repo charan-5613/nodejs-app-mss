@@ -30,7 +30,7 @@ pipeline{
        steps{
           withCredentials([usernamePassword(credentialsId: '888', passwordVariable: 'GIT_PASSWORD', usernameVariable: 'GIT_USERNAME')]) {
       sh('bash gittag.sh')
-      sh('git push https://${GIT_USERNAME}:${GIT_PASSWORD}@github.com/Nishanth80/nodejs-app-mss.git --tags')
+      sh('git push https://${GIT_USERNAME}:${GIT_PASSWORD}@github.com/Nadeem-13/nodejs-app-mss.git --tags')
     }
        }
      }
