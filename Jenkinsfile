@@ -59,3 +59,6 @@ pipeline{
           sh 'npm publish --registry http://3.94.53.202:8081/repository/Nodejs/'
      // }
          }
+      }
+    }
+  
