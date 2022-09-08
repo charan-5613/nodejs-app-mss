@@ -12,7 +12,7 @@ sonarqubeScanner({
             'sonar.projectVersion':'1.0',
 	    'sonar.language':'js',
             'sonar.sourceEncoding':'UTF-8',
-            'sonar.sources': '/var/lib/jenkins/workspace/Nodejs/',
+            'sonar.sources': '/var/lib/jenkins/workspace/sonar-demo/',
 	  //'sonar.tests': 'specs',
           //'sonar.inclusions' : 'src/**'
        },
